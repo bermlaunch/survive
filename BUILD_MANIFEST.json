@@ -1,0 +1,83 @@
+{
+  "schema": "bermlaunch.survive.static_build.v1",
+  "sourceHead": "7b90fd0cea2b853607b16e7b47bf55fd55b57b39",
+  "sourceTree": "a83e5f30d802ee2bbc3e11e76f2badf46748eed0",
+  "lawSha256": "sha256:3cfd2222b3994d483e58095bcd46e10ba7abd68bd453681a5d094edb355ba135",
+  "files": [
+    {
+      "path": "LAW.json",
+      "bytes": 126258,
+      "sha256": "3cfd2222b3994d483e58095bcd46e10ba7abd68bd453681a5d094edb355ba135"
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 5133,
+      "sha256": "369c7ba19e240cb8d5d22cb2122220125b8026ca09512b6b869c3eb0f4770e82"
+    },
+    {
+      "path": "code-identities.json",
+      "bytes": 14415,
+      "sha256": "cb0ca08e25cfc437442f607557997a26958867d418ddac579fd0bd8dc2a2d1b6"
+    },
+    {
+      "path": "config.json",
+      "bytes": 135,
+      "sha256": "68993bacd6921768efb87307caa6586f741459bd8776c06a1d68e326610c17a5"
+    },
+    {
+      "path": "core.mjs",
+      "bytes": 18318,
+      "sha256": "8321a0cd0e0077617bcf1a8abeb9212ab2edc465c8b532b85eae54d1db285ed7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2094,
+      "sha256": "95c3d7f5283b9514b105b93b3bbb78fb84bd682bb2aa079a2f064447e148a1ab"
+    },
+    {
+      "path": "sdk/bermProtocolR13a.js",
+      "bytes": 12914,
+      "sha256": "6b664ffb65f9059779629f8b046a4064607fb9581ecfe01d5bf424e5a1e22239"
+    },
+    {
+      "path": "sdk/enrollmentCrypto.js",
+      "bytes": 13675,
+      "sha256": "729bfe22623418f12e52470b18ad1c3352de48186644b5f5a3a9cfa5117481d1"
+    },
+    {
+      "path": "sdk/enrollmentObservation.js",
+      "bytes": 6051,
+      "sha256": "e696ab84fe39b0164b7ea8e44968d202697e25aa40eb70bd781f33e38360455b"
+    },
+    {
+      "path": "sdk/enrollmentProtocol.js",
+      "bytes": 35659,
+      "sha256": "89572471b2c0edd866044bdc45eec9c5021d5e8a6572272037d0d7a25f0a34d0"
+    },
+    {
+      "path": "sdk/enrollmentRoster.js",
+      "bytes": 24267,
+      "sha256": "a58a1220c46f83956023223537b6811b003f359d15393dd2136df7ea68498409"
+    },
+    {
+      "path": "sdk/identityCrypto.js",
+      "bytes": 10260,
+      "sha256": "b30f65d210f82c089d6e82e459e1c336e3c534eb4e1f616aa84f032de3e074de"
+    },
+    {
+      "path": "sdk/r13aStrictJson.js",
+      "bytes": 7141,
+      "sha256": "1878045ec382be1203b72e1b589f6f7cd7026185e7df7833357ce2589c0d1628"
+    },
+    {
+      "path": "sdk/referenceClient.js",
+      "bytes": 4739,
+      "sha256": "a6ad415990cd5a08a5bff9e828d37b314a298ec1a4bb3072c87f3b462ec2405b"
+    },
+    {
+      "path": "style.css",
+      "bytes": 641,
+      "sha256": "c2bb8bf56fdbdd97a27e656a8a25959075bb19dfe74d5a4e03f393b33a6030a3"
+    }
+  ]
+}

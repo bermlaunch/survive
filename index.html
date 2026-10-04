@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer"><title>Berm Survive — Independent Founder Recovery</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<main><h1>Berm Survive</h1><p>Independent Founder recovery. Local package and your RPC only. No BermLaunch API, analytics or secret input.</p>
+<label>Recovery package <input id="package" type="file" accept="application/json,.json"></label>
+<label>Optional independently obtained package SHA-256 <input id="package-hash" placeholder="sha256:…"></label>
+<label>Your Robinhood RPC URL <input id="rpc" type="url" autocomplete="off"></label>
+<button id="verify">VERIFY package and chain</button><output id="status">UNAVAILABLE — select a package</output>
+<label>Founder npub, committed wallet or slot <input id="search" autocomplete="off"></label>
+<button id="derive" disabled>DERIVE</button><button id="compute" disabled>COMPUTE</button>
+<pre id="founder"></pre><pre id="pocket"></pre>
+<p>Before launch: claim unavailable. Below minimum: accumulating. CURVE buys the actual token before Graduation; V4 uses the migrated permanent pool. Claims spend the full current pocket.</p>
+<label>Minimum tokens out (raw integer units) <input id="minimum" value="1" inputmode="numeric"></label>
+<label>Deadline (Unix seconds) <input id="deadline" inputmode="numeric"></label>
+<button id="claim" disabled>Prepare unsigned CLAIM</button><pre id="transaction"></pre>
+<button id="download" disabled>Download unsigned transaction</button><button id="copy" disabled>Copy calldata</button>
+<button id="wallet" disabled>Review installed wallet account</button><button id="send" disabled>Explicitly send reviewed claim</button>
+<p>No transaction is sent automatically. Review chain, committed wallet, target, calldata, minimum output and deadline first.</p>
+<button id="audit" disabled>AUDIT all Founders / download report</button><pre id="audit-report"></pre>
+</main><script type="module" src="app.mjs"></script></body></html>

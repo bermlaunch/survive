@@ -1,0 +1,666 @@
+{
+  "schema": "bermlaunch.v02.final_code_identities.v1",
+  "chainId": 4663,
+  "compiler": {
+    "solc": "0.8.36+commit.8a079791",
+    "optimizerRuns": 100000,
+    "viaIr": true,
+    "evmVersion": "cancun"
+  },
+  "controllerTemplateHash": "0xaf73ae1236f055ca23e43d85364058ff09d2d1c959dfed79b5d85923123692bf",
+  "identities": {
+    "factory": {
+      "creationBytes": 10916,
+      "creationSha256": "e77292507b114a7779af496f925789e8dc0045ac3e28785c194b1a881caa8976",
+      "creationKeccak256": "0x90a017dc1141ef19deb0407177f64efc30a9342b6949b46b281e9fc96eeae266",
+      "runtime": {
+        "bytes": 10777,
+        "normalizedSha256": "0537bf7ab1efc7c0529eba1518a6efa084026bb1eb4efc26e67a1799b13e4a23",
+        "normalizedKeccak256": "0x36a751ae4391aba1ffe8606eb07b373a9d6cf03252cb5f82494be82767cbba27",
+        "immutableReferences": [
+          {
+            "start": 4293,
+            "length": 32
+          },
+          {
+            "start": 7673,
+            "length": 32
+          }
+        ]
+      }
+    },
+    "controller": {
+      "creationBytes": 37692,
+      "creationSha256": "4878ca91b7cb5db6c63ba9adb5ce3b6c32ae058e1296de0c761453fb28bf2efb",
+      "creationKeccak256": "0xaf73ae1236f055ca23e43d85364058ff09d2d1c959dfed79b5d85923123692bf",
+      "runtime": {
+        "bytes": 4200,
+        "normalizedSha256": "32ec2d05bd62a213774b8b1a80d1616e49f00f3dacd54f3f95b345c249cc51a2",
+        "normalizedKeccak256": "0x78a979f48194f23f25f95199118657608a9dd9e9a1b0e497ec1345a8cde9934a",
+        "immutableReferences": [
+          {
+            "start": 243,
+            "length": 32
+          },
+          {
+            "start": 357,
+            "length": 32
+          },
+          {
+            "start": 468,
+            "length": 32
+          },
+          {
+            "start": 579,
+            "length": 32
+          },
+          {
+            "start": 669,
+            "length": 32
+          },
+          {
+            "start": 1549,
+            "length": 32
+          },
+          {
+            "start": 1777,
+            "length": 32
+          },
+          {
+            "start": 1882,
+            "length": 32
+          },
+          {
+            "start": 2168,
+            "length": 32
+          }
+        ]
+      }
+    },
+    "distributor": {
+      "creationBytes": 23513,
+      "creationSha256": "68f6c0a0625a33a798c6ea9347988508f2897cd2d4d4db1c23b9d57777040cc4",
+      "creationKeccak256": "0x6c489806a7f822f2e7280e1393fd4e0acd02e23bcefe49311f2e3d9d1b40444c",
+      "runtime": {
+        "bytes": 21266,
+        "normalizedSha256": "dced4b4dc1ef313613bdffb089c77f03a9c5fbfbb97bd35b577c49b95299faa8",
+        "normalizedKeccak256": "0xc8d1626089d120cb2b19d4abae5d29b0e8366de014bc862b8d2baa96355953b2",
+        "immutableReferences": [
+          {
+            "start": 1043,
+            "length": 32
+          },
+          {
+            "start": 1212,
+            "length": 32
+          },
+          {
+            "start": 1312,
+            "length": 32
+          },
+          {
+            "start": 1435,
+            "length": 32
+          },
+          {
+            "start": 1568,
+            "length": 32
+          },
+          {
+            "start": 2585,
+            "length": 32
+          },
+          {
+            "start": 3248,
+            "length": 32
+          },
+          {
+            "start": 3332,
+            "length": 32
+          },
+          {
+            "start": 3451,
+            "length": 32
+          },
+          {
+            "start": 4879,
+            "length": 32
+          },
+          {
+            "start": 4946,
+            "length": 32
+          },
+          {
+            "start": 5438,
+            "length": 32
+          },
+          {
+            "start": 5624,
+            "length": 32
+          },
+          {
+            "start": 7240,
+            "length": 32
+          },
+          {
+            "start": 7321,
+            "length": 32
+          },
+          {
+            "start": 7472,
+            "length": 32
+          },
+          {
+            "start": 7644,
+            "length": 32
+          },
+          {
+            "start": 7965,
+            "length": 32
+          },
+          {
+            "start": 8294,
+            "length": 32
+          },
+          {
+            "start": 8399,
+            "length": 32
+          },
+          {
+            "start": 8480,
+            "length": 32
+          },
+          {
+            "start": 8662,
+            "length": 32
+          },
+          {
+            "start": 8721,
+            "length": 32
+          },
+          {
+            "start": 8874,
+            "length": 32
+          },
+          {
+            "start": 9084,
+            "length": 32
+          },
+          {
+            "start": 9118,
+            "length": 32
+          },
+          {
+            "start": 9536,
+            "length": 32
+          },
+          {
+            "start": 9921,
+            "length": 32
+          },
+          {
+            "start": 9954,
+            "length": 32
+          },
+          {
+            "start": 10296,
+            "length": 32
+          },
+          {
+            "start": 10579,
+            "length": 32
+          },
+          {
+            "start": 10688,
+            "length": 32
+          },
+          {
+            "start": 10815,
+            "length": 32
+          },
+          {
+            "start": 10893,
+            "length": 32
+          },
+          {
+            "start": 10926,
+            "length": 32
+          },
+          {
+            "start": 11173,
+            "length": 32
+          },
+          {
+            "start": 11418,
+            "length": 32
+          },
+          {
+            "start": 12178,
+            "length": 32
+          },
+          {
+            "start": 12258,
+            "length": 32
+          },
+          {
+            "start": 12366,
+            "length": 32
+          },
+          {
+            "start": 12837,
+            "length": 32
+          },
+          {
+            "start": 12889,
+            "length": 32
+          },
+          {
+            "start": 13017,
+            "length": 32
+          },
+          {
+            "start": 13688,
+            "length": 32
+          },
+          {
+            "start": 13874,
+            "length": 32
+          },
+          {
+            "start": 14219,
+            "length": 32
+          },
+          {
+            "start": 14637,
+            "length": 32
+          },
+          {
+            "start": 14732,
+            "length": 32
+          },
+          {
+            "start": 14812,
+            "length": 32
+          },
+          {
+            "start": 14876,
+            "length": 32
+          },
+          {
+            "start": 15155,
+            "length": 32
+          },
+          {
+            "start": 15243,
+            "length": 32
+          },
+          {
+            "start": 15579,
+            "length": 32
+          },
+          {
+            "start": 15624,
+            "length": 32
+          },
+          {
+            "start": 15809,
+            "length": 32
+          },
+          {
+            "start": 15843,
+            "length": 32
+          },
+          {
+            "start": 16494,
+            "length": 32
+          },
+          {
+            "start": 16527,
+            "length": 32
+          },
+          {
+            "start": 17029,
+            "length": 32
+          },
+          {
+            "start": 17271,
+            "length": 32
+          },
+          {
+            "start": 18111,
+            "length": 32
+          },
+          {
+            "start": 18432,
+            "length": 32
+          },
+          {
+            "start": 18466,
+            "length": 32
+          },
+          {
+            "start": 18503,
+            "length": 32
+          },
+          {
+            "start": 18537,
+            "length": 32
+          },
+          {
+            "start": 18574,
+            "length": 32
+          },
+          {
+            "start": 18608,
+            "length": 32
+          },
+          {
+            "start": 18755,
+            "length": 32
+          },
+          {
+            "start": 18792,
+            "length": 32
+          },
+          {
+            "start": 18829,
+            "length": 32
+          },
+          {
+            "start": 18879,
+            "length": 32
+          },
+          {
+            "start": 18918,
+            "length": 32
+          },
+          {
+            "start": 19051,
+            "length": 32
+          },
+          {
+            "start": 20831,
+            "length": 32
+          },
+          {
+            "start": 20869,
+            "length": 32
+          },
+          {
+            "start": 20933,
+            "length": 32
+          },
+          {
+            "start": 21020,
+            "length": 32
+          },
+          {
+            "start": 21081,
+            "length": 32
+          },
+          {
+            "start": 21145,
+            "length": 32
+          }
+        ]
+      }
+    },
+    "swapAdapter": {
+      "creationBytes": 14960,
+      "creationSha256": "d71562c2a37dc24ba4df4847f06c5b0eb4a8cdf885924dcfb713d0804bc1a7d7",
+      "creationKeccak256": "0xe9bdb46a4552424332cfe9113b204feb31a80c60df82bb81aa5c387dd18ffdb7",
+      "runtime": {
+        "bytes": 13458,
+        "normalizedSha256": "5f6e63c5a63fe50eaed148b181a8e25656a500304ad4917aa5012b4a9730a97b",
+        "normalizedKeccak256": "0xb145f05bdeb96aed105565f135cfa098e24b22ec25854c62954d7894d2770dd5",
+        "immutableReferences": [
+          {
+            "start": 322,
+            "length": 32
+          },
+          {
+            "start": 878,
+            "length": 32
+          },
+          {
+            "start": 967,
+            "length": 32
+          },
+          {
+            "start": 1077,
+            "length": 32
+          },
+          {
+            "start": 1167,
+            "length": 32
+          },
+          {
+            "start": 1256,
+            "length": 32
+          },
+          {
+            "start": 1438,
+            "length": 32
+          },
+          {
+            "start": 2021,
+            "length": 32
+          },
+          {
+            "start": 2142,
+            "length": 32
+          },
+          {
+            "start": 2269,
+            "length": 32
+          },
+          {
+            "start": 2381,
+            "length": 32
+          },
+          {
+            "start": 3303,
+            "length": 32
+          },
+          {
+            "start": 3491,
+            "length": 32
+          },
+          {
+            "start": 3564,
+            "length": 32
+          },
+          {
+            "start": 3691,
+            "length": 32
+          },
+          {
+            "start": 3769,
+            "length": 32
+          },
+          {
+            "start": 3884,
+            "length": 32
+          },
+          {
+            "start": 4997,
+            "length": 32
+          },
+          {
+            "start": 7513,
+            "length": 32
+          },
+          {
+            "start": 7622,
+            "length": 32
+          },
+          {
+            "start": 7790,
+            "length": 32
+          },
+          {
+            "start": 7879,
+            "length": 32
+          },
+          {
+            "start": 7988,
+            "length": 32
+          },
+          {
+            "start": 8077,
+            "length": 32
+          },
+          {
+            "start": 8243,
+            "length": 32
+          },
+          {
+            "start": 8353,
+            "length": 32
+          },
+          {
+            "start": 8463,
+            "length": 32
+          },
+          {
+            "start": 8552,
+            "length": 32
+          },
+          {
+            "start": 8888,
+            "length": 32
+          },
+          {
+            "start": 8975,
+            "length": 32
+          },
+          {
+            "start": 9441,
+            "length": 32
+          },
+          {
+            "start": 9561,
+            "length": 32
+          },
+          {
+            "start": 9639,
+            "length": 32
+          },
+          {
+            "start": 9820,
+            "length": 32
+          },
+          {
+            "start": 9856,
+            "length": 32
+          },
+          {
+            "start": 10060,
+            "length": 32
+          },
+          {
+            "start": 10723,
+            "length": 32
+          },
+          {
+            "start": 10835,
+            "length": 32
+          },
+          {
+            "start": 11363,
+            "length": 32
+          },
+          {
+            "start": 11436,
+            "length": 32
+          },
+          {
+            "start": 11603,
+            "length": 32
+          },
+          {
+            "start": 11676,
+            "length": 32
+          },
+          {
+            "start": 11843,
+            "length": 32
+          },
+          {
+            "start": 11916,
+            "length": 32
+          },
+          {
+            "start": 12018,
+            "length": 32
+          },
+          {
+            "start": 12052,
+            "length": 32
+          },
+          {
+            "start": 12093,
+            "length": 32
+          },
+          {
+            "start": 12127,
+            "length": 32
+          },
+          {
+            "start": 12168,
+            "length": 32
+          },
+          {
+            "start": 12202,
+            "length": 32
+          },
+          {
+            "start": 12243,
+            "length": 32
+          },
+          {
+            "start": 12277,
+            "length": 32
+          },
+          {
+            "start": 12318,
+            "length": 32
+          },
+          {
+            "start": 12352,
+            "length": 32
+          },
+          {
+            "start": 12393,
+            "length": 32
+          },
+          {
+            "start": 12427,
+            "length": 32
+          },
+          {
+            "start": 12468,
+            "length": 32
+          },
+          {
+            "start": 12502,
+            "length": 32
+          },
+          {
+            "start": 12914,
+            "length": 32
+          }
+        ]
+      }
+    }
+  },
+  "swapAdapterRequirements": {
+    "contract": "BagsRobinhoodDualPhaseBuyAdapterV02",
+    "curveProxyCodeHash": "0xded811134eaf2081e6ea347689cfa0be4489c3d4d4134815352a4835b2cf805b",
+    "provenance": {
+      "sealedBlock": 64467580,
+      "sealedBlockHash": "0x6d36fab5ac5dc189070c8b49c91280018410a6188124455a5774740eeb212712",
+      "test": "evm/test/RobinhoodImmediateFounderV02Fork.t.sol"
+    }
+  }
+}
